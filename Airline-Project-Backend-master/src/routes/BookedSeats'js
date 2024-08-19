@@ -1,0 +1,32 @@
+const { Console } = require("console");
+const mysql = require("../mysql-connector");
+
+/**
+ * @param {import("express").Request} request
+ * @param {import("express").Response} response
+ */
+async function handler(request, response) {
+    const { flightID,selectedTravelerClass } = request.query
+    mysql.query(
+        `CALL GetBookedSeatNumbers(?, ?)`,
+		[flightID,selectedTravelerClass],
+        (err, results) => {
+            if (err) {
+                console.error(err);
+                reject(err);
+                return;
+            }
+            const items = results[0];
+			const alteredItems = new Array(items.length);
+			for (let i = 0; i < items.length; i++) {
+				const item = items[i];
+				alteredItems[i] = {
+					seat: item.Seat_Number,
+				};
+			}
+			response.status(200).send(alteredItems);
+		}
+    );
+}
+    
+module.exports = handler;

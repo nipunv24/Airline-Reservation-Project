@@ -1,0 +1,132 @@
+/* SearchDateContainer styles */
+.SearchDateContainer {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0.9;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 700px;
+  color: #007bff;
+}
+
+/* SearchDate styles */
+.SearchDate {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 600px;
+  margin-left: 10px;
+}
+
+/* SearchDateHeader styles */
+.SearchDateHeader {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* SearchDateForm styles */
+.SearchDateForm {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styles */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* DestinationAirportSelect styles */
+.DestinationAirportSelect {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* StartDateForm and EndDateForm styles */
+.StartDateForm,
+.EndDateForm {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+/* Date input styles */
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* SearchDateButton styles */
+.SearchDateButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 80px;
+  margin-left: 260px;
+}
+
+.SearchDateButton:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+  transform: scale(1.05);
+}
+
+/* PassengerTableContainer styles */
+.PassengerTableContainer {
+  margin-top: 20px;
+}
+
+/* PassengerTable styles */
+.PassengerTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for table header */
+.PassengerTable thead th {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Style for table rows */
+.PassengerTable tbody tr {
+  border-bottom: 1px solid #ccc;
+}
+
+/* Style for table cell (td) */
+.PassengerTable tbody td {
+  padding: 10px;
+}
+
+/* Alternate row background color */
+.PassengerTable tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect on table rows */
+.PassengerTable tbody tr:hover {
+  background-color: #e0e0e0;
+}

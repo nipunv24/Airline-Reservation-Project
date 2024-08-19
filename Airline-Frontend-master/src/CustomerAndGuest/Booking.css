@@ -1,0 +1,111 @@
+/* Booking.css */
+
+/* Styles for the entire BookingPage */
+.BookingPage {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  max-width: 1500px;
+  margin: 60px auto;
+  width: 900px;
+  opacity: 0.9;
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.BookingState {
+  text-align: center;
+  color: #007bff;
+}
+
+/* Styles for the CountSection */
+.CountSection {
+  margin-bottom: 20px;
+}
+
+.Bookingp {
+  font-size: 18px;
+}
+
+.ProceedtoPayment {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.BookingButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 30%;
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3;
+}
+
+.ProceedtoPayment:hover {
+  background-color: #0056b3;
+}
+
+.ProceedtoPayment[disabled] {
+  pointer-events: none;
+  background-color: rgb(91, 165, 230);
+}
+
+/* Styles for PassengerDetailsContainer */
+.PassengerDetailsContainer {
+  max-height: 500px; /* Limit the height for scrollable container */
+  overflow-y: auto; /* Enable vertical scrolling when content overflows */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for PassengerDetails */
+.PassengerDetails {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Styles for input fields and labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.ErrorText {
+  color: red;
+  margin-top: 0%;
+}

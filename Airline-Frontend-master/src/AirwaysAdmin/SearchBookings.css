@@ -1,0 +1,120 @@
+/* SearchBookingContainer styles */
+.SearchBookingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* SearchBooking styles */
+.SearchBooking {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  opacity: 0.9;
+  width: 450px;
+}
+
+/* SearchBookingHeader styles */
+.SearchBookingHeader {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+/* DateRangeFormDiv styles */
+.DateRangeFormDiv {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+/* DateRangeForm styles */
+.DateRangeForm {
+  display: flex;
+  flex-direction: column;
+}
+
+/* BookingStartDate and BookingEndDate styles */
+.BookingStartDate,
+.BookingEndDate {
+  margin: 10px 0;
+}
+
+/* Label styles */
+label {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Input styles */
+input[type="date"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* BookingCountButton styles */
+.BookingCountButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.BookingCountButton:hover {
+  background-color: #0056b3;
+}
+
+/* BookingTableContainer styles */
+.BookingTableContainer {
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* BookingTable styles */
+.BookingTable {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* BookingTableHeader styles */
+.BookingTableHeader {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* BookingTable th and td styles */
+.BookingTable th,
+.BookingTable td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Alternate row background color for better readability */
+.BookingTable tbody tr {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+/* Highlighted row on hover */
+.BookingTable tbody tr:hover {
+  background-color: #e0e0e0;
+}

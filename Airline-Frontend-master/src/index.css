@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* useEffect(() => {
+    fetch("http://localhost:3031/Users")
+      .then((res) => {
+        if (!res.ok) throw Error("Could not fetch the data for that resource");
+        return res.json();
+      })
+      .then((data) => {
+        setUsers(data);
+      })
+      .catch((err) => setError(err.message));
+  }, []); */

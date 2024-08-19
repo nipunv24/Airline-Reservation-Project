@@ -1,0 +1,46 @@
+{
+  "Users": [
+    {
+      "user_id": "0001",
+      "email_address": "visitha@gmail.com",
+      "password": "12345",
+      "name": "Visitha Wickramasinghe",
+      "address": "123 Main Street, Cityville",
+      "birthday": "1990-01-15",
+      "NIC": "123456789012",
+      "phone_number": "0786546789",
+      "passport_number": "AB123456",
+      "membership_type": "frequent",
+      "travel_count": 1,
+      "role": "registered"
+    },
+    {
+      "user_id": "0002",
+      "email_address": "jane@gmail.com",
+      "password": "strongpassword456",
+      "name": "Jane Smith",
+      "address": "456 Elm Street, Townsville",
+      "birthday": "1985-05-20",
+      "NIC": "987654321098",
+      "phone_number": "0987543210",
+      "passport_number": "CD789012",
+      "membership_type": "gold",
+      "travel_count": 15,
+      "role": "registered"
+    },
+    {
+      "user_id": "0003",
+      "email_address": "guest@gmail.com",
+      "password": "guestpass123",
+      "name": "Guest User",
+      "address": "789 Oak Avenue, Villagetown",
+      "birthday": "2000-12-03",
+      "NIC": "456789012345",
+      "phone_number": "05551234567",
+      "passport_number": null,
+      "membership_type": null,
+      "travel_count": null,
+      "role": "guest"
+    }
+  ]
+}

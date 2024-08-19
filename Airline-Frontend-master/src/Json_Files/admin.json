@@ -1,0 +1,22 @@
+{
+  "Admin": [
+    {
+      "admin_id": 1,
+      "email_address": "admin@example.com",
+      "password": "admin_password123",
+      "name": "Admin Name"
+    },
+    {
+      "admin_id": 2,
+      "email_address": "admin2@example.com",
+      "password": "admin_password456",
+      "name": "Admin 2 Name"
+    },
+    {
+      "admin_id": 3,
+      "email_address": "admin3@example.com",
+      "password": "admin_password789",
+      "name": "Admin 3 Name"
+    }
+  ]
+}

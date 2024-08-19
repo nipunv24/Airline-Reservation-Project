@@ -1,0 +1,59 @@
+/* AboutUs.css */
+
+.AboutUsTag {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  opacity: 0.8;
+  width: 400px;
+  margin-left: 570px;
+  margin-top: 150px;
+}
+
+.AboutUsContainer {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.GroupNumber {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.Members {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.NameTable {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.NamesBody {
+  font-size: 16px;
+  color: #007bff;
+}
+
+.NamesRow {
+  border: 1px solid #ccc;
+}
+
+.NamesRow td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

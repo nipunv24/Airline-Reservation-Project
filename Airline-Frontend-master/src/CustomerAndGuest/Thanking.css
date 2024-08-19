@@ -1,0 +1,65 @@
+/* Thanking.css */
+
+.containerThanking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgba(
+    240,
+    240,
+    240,
+    0.8
+  ); /* Set background color with opacity */
+  opacity: 0; /* Set initial opacity to 0 to make it invisible */
+  border-radius: 10px; /* Optional: Add rounded corners to the container */
+  padding: 20px; /* Optional Add padding to the container */
+  transform: scale(0.5); /* Initial scale, making it smaller */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Add transition */
+  width: 500px;
+  margin-left: 530px;
+  margin-top: 15px;
+}
+
+.containerThanking.show {
+  opacity: 0.9; /* Set opacity to make it visible */
+  transform: scale(1); /* Set scale to 1 for normal size */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Add transition */
+}
+
+.title {
+  font-size: 28px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
